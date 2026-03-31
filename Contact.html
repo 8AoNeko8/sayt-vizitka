@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="Home.html" class="nav-logo">Сайт-визитка</a>
+            <ul class="nav-menu">
+                <li><a href="Home.html" class="nav-link active">Главная</a></li>
+                <li><a href="Aboyt_me.html" class="nav-link">Обо мне</a></li>
+                <li><a href="Contact.html" class="nav-link">Контакты</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Мои контактные данные</h1>
+
+<section class="contact-info">
+    <div class="info-grid">
+        <div class="info-item">
+            <h3>Email</h3>
+            <p><a href="Aminevilyasbc@gmail.com"></a>Aminevilyasbc@gmail.com</p>
+        </div>
+        <div class="info-item">
+            <h3>Телефон</h3>
+            <p><a href="tel:+79962933091">+7 (996) 293-30-91</a></p>
+        </div>
+        <div class="info-item">
+            <h3>Telegram</h3>
+            <p><a href="https://t.me/AoNeko80">@AoNeko80</a></p>
+        </div>
+        <div class="info-item">
+            <h3>Vk</h3>
+            <p><a href="https://vk.com/ilefsbc">ilefsbc</a></p>
+        </div>
+    </div>
+</section>
+
+<section class="contact-form">
+    <h2>Отправьте сообщение</h2>
+    <form action="#" method="POST">
+        <div class="form-group">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="subject">Тема:</label>
+            <select id="subject" name="subject">
+                <option value="consultation">Консультация</option>
+                <option value="cooperation">Сотрудничество</option>
+                <option value="feedback">Обратная связь</option>
+                <option value="other">Другое</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Отправить сообщение</button>
+    </form>
+</section>
+</div>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
